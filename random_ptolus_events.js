@@ -25,6 +25,7 @@ let d = new Dialog({
 			<option value="smarket">South Market</option>
 			<option value="temple">Temple District</option>
 			<option value="warrens">The Warrens</option>
+			<option value="weekly">(Weekly Event)</option>
 		  </select>
         </div>
       </form>`,
@@ -49,6 +50,7 @@ let d = new Dialog({
 			if (district == "general") {
 
 				events = Math.floor(Math.random()*334);
+				/** Generic events created/compiled by Poetics **/
 				const generic_array = [
 					'A PC sees a beautiful woman sunbathing on a nearby rooftop. He’s spotted and waved over.',
 					'A back alley hides a sinkhole that chutes the party on a slalom slide down into part of the dungeon.',
@@ -1163,6 +1165,70 @@ let d = new Dialog({
 				else if (roll == 97) { events = "119"; }
 				else if (roll == 98) { events = "171"; }
 				else { events = "172"; }
+			} else if (district == "weekly") {
+				/** Weekly events are unique in that they don't follow the normal **/
+				/** Event breakdown. It is a simple d100 roll to determine an outcome **/
+				/** Thus this section posts the whisper and ends without running the **/
+				/** rest of the script **/
+				if (roll < 4) { events = 'A ship bearing exotic cargo arrives in the Docks.'; }
+				else if (roll < 7) { events = ' Two rival gangs clash in the streets, with much bloodshed.'; }
+				else if (roll < 11) { events = 'Strong winds off the Bay of Ptolus damage a few buildings.'; }
+				else if (roll < 13) { events = 'A stopped-up sewer line sends sewage back up into homes and the street.'; }
+				else if (roll == 13) { events = 'A member of a noble house gets married.'; }
+				else if (roll == 14) { events = 'An earth tremor shakes the town and causes minor damage, particularly in the Warrens.'; }
+				else if (roll < 17) { events = 'Dysentery spreads through Midtown.'; }
+				else if (roll < 19) { events = 'Vandals deface temples in the Temple District.'; }
+				else if (roll < 21) { events = 'An Imperial envoy from Empress Addares or Emperor Segaci comes to town to meet with the Commissar.'; }
+				else if (roll < 24) { events = 'One of the religions with a temple in the city splits into two groups in a notable schism.'; }
+				else if (roll < 27) { events = 'Bandits plague travelers heading north out of the city.'; }
+				else if (roll < 30) { events = 'A well-known pirate ship preys upon vessels coming into and leaving Ptolus.'; }
+				else if (roll == 30) { events = 'The Commissar announces higher taxes for the coming year, and the people grow dissatisfied.'; }
+				else if (roll < 33) { events = 'Troubles in another city cause the number of immigrants arriving in Ptolus to increase.'; }
+				else if (roll < 37) { events = 'A public execution of a well-known criminal is conducted in Oldtown.'; }
+				else if (roll < 40) { events = 'A new major building project starts in the city.'; }
+				else if (roll == 40) { events = 'An older, prominent building in the city collapses.'; }
+				else if (roll == 41) { events = 'The veterans of the Gnoll Wars hold a parade, attended by the Commissar.'; }
+				else if (roll < 44) { events = 'Fire destroys an entire city block.'; }
+				else if (roll < 46) { events = 'A well-known and well-liked minstrel dies.'; }
+				else if (roll == 46) { events = 'A popular merchant in the South Market is accused of murdering their spouse.'; }
+				else if (roll == 47) { events = 'Children disappear, kidnapped by an evil cult.'; }
+				else if (roll == 48) { events = 'A hailstorm causes damage to various buildings in the city.'; }
+				else if (roll < 51) { events = 'A new fashion or fad spreads through the city.'; }
+				else if (roll < 54) { events = 'A major new restaurant opens.'; }
+				else if (roll < 57) { events = 'Two feuding guilds allow a confrontation between its members to grow violent.'; }
+				else if (roll == 57) { events = 'A concerned group of citizens protests the actions of the Sisterhood of Silence.'; }
+				else if (roll == 58) { events = 'One of the bridges over the King’s River threatens collapse, and people avoid it.'; }
+				else if (roll == 59) { events = 'Someone vandalizes a statue of a past Commissar in Oldtown.'; }
+				else if (roll == 60) { events = 'Fishermen in the harbor report a week of terrible catches.'; }
+				else if (roll == 61) { events = 'Strange graffiti begins appearing throughout town, its meaning unclear.'; }
+				else if (roll < 65) { events = 'A group of knights or adventurers is lauded as heroes for dealing with some sinister threat.'; }
+				else if (roll < 69) { events = 'A particular temple sponsors a feast and celebration.'; }
+				else if (roll < 71) { events = 'The City Watch cracks down on certain illegal gambling establishments and brothels.'; }
+				else if (roll < 74) { events = 'The republican movement stages a rally in Oldtown.'; }
+				else if (roll < 76) { events = 'A spate of robberies occurs in the Nobles’ Quarter.'; }
+				else if (roll < 78) { events = 'The ratmen in the sewers are getting either more desperate or more daring in their raids on the surface.'; }
+				else if (roll == 78) { events = 'Lights are seen with greater frequency in the windows of Goth Gulgamel.'; }
+				else if (roll < 81) { events = 'A carnival sets up south of the city with a freak show, games of chance, and lots of food.'; }
+				else if (roll == 81) { events = 'An organization attempts to raise money to repair the Clock Tower in Oldtown.'; }
+				else if (roll == 82) { events = 'A demon from the Dark Reliquary terrorizes a neighborhood before the Knights of the Pale deal with it.'; }
+				else if (roll == 83) { events = 'The King’s River reaches very low levels, making the sewage and garbage in it thick and malodorous.'; }
+				else if (roll < 87) { events = 'Two merchants have a price war.'; }
+				else if (roll < 90) { events = 'A new play or show opens in one of the theaters, to great acclaim.'; }
+				else if (roll < 92) { events = 'Someone makes an attempt on the life of a well-known public figure.'; }
+				else if (roll < 94) { events = 'Ghosts are reported with increasing frequency in a certain location in the city.'; }
+				else if (roll == 94) { events = 'Litorians, beginning to sour on urban life, leave the city in numbers.'; }
+				else if (roll < 97) { events = 'Fugitives escape from the Prison or one of the madhouses.'; }
+				else if (roll < 98) { events = 'The City Watch and Commissar’s Men scour the city for a particular criminal.'; }
+				else { events = 'A newcomer replaces a retiring longtime member of the City Council’s Assembly.'; }
+				
+				let output = `<strong>(Weekly Event):</strong> ${events}`;
+				/** Format and send the response as a private message to me (Poetics) **/
+				ChatMessage.create({
+					user: game.user._id,
+					content: output,
+					whisper: ChatMessage.getWhisperRecipients("Poetics")
+				});
+				return;	
 			}
 
 			/** At this point "events" has one or two event indices stored **/
