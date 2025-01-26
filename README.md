@@ -1,4 +1,4 @@
-Useful JavaScript macros I've put together (often with lots of help) for my online RPGs played through (FoundryVTT)[https://foundryvtt.com/].
+Useful JavaScript macros I've put together (often with lots of help) for my online RPGs played through [FoundryVTT](https://foundryvtt.com/).
 
 While each macro has a small comment at the top describing its use, here are more complete descriptions:
 
