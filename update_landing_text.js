@@ -88,7 +88,7 @@ let d = new Dialog({
 					}
 					else if (character == "brand") {
 						var id = brand.textbox;
-						var new_name = noel.names[`${Math.floor(Math.random()*4)}`];
+						var new_name = brand.names[`${Math.floor(Math.random()*4)}`];
 						var updates = [{_id:id, text:new_name}];
 					}
 					else if (character == "mia") {
