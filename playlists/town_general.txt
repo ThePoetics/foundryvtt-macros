@@ -1,0 +1,342 @@
+# Here is a list of music tracks I've designated suitable for urban/town scenes in fantasy RPGs.
+# The total tracklist contains 153 tracks which translates to nearly 9 hours of music.
+# See the README.txt in the playlists folder for abbreviation details.
+
+BDO - Balenos Field 1.webm
+BDO - Calpheon Farm 1.webm
+BDO - Calpheon Farm 2.webm
+BDO - Florin Village.webm
+BDO - Mediah Ruins 2.webm
+BDO - Serendia Field 1.webm
+BDO - Southwestern Calpheon.webm
+BG1 - Cloakwood Forest.webm
+BG1 - Exploring The Plains.webm
+BG2 - The Druid Grove.webm
+BG3 - Quest For A Cure.webm
+Conan - Track 12.webm
+DBMC - Echoes of the Forest.webm
+DBMC - Rivers Of Elderwood.webm
+DBMC - Whispers of the Elven Forest.webm
+DBMC 0 Elven King's Garden.webm
+DD2 - Convergence - The Forgotten Sovran.webm
+DOS2 - Driftwood.webm
+Destiny 2 - A New Frontier.webm
+Diablo IV - Dindai Flats.webm
+ESO - A Land Burdened with History.webm
+ESO - A White Stallion Rampant.webm
+ESO - Alone in the Green.webm
+ESO - Auridon Sunrise.webm
+ESO - Dawn Gleams on Cyrodiil.webm
+ESO - Dawn at Castle Navire.webm
+ESO - Galen Ambient.webm
+ESO - Greenheart.webm
+ESO - Hinterlands.webm
+ESO - Hope Just out of Reach.webm
+ESO - Murkmire Ambient 1.webm
+ESO - Omens in the Clouds.webm
+ESO - Radiance and Glory.webm
+ESO - The Heart of Nirn.webm
+ESO - Through Sunflower Fields.webm
+ESO - Vastyr Ambient.webm
+ESO - Whispers of the Ancestors.webm
+ESO - Y'ffre in Every Leaf.webm
+FFXIV - Field 2 (Gridania).webm
+FFXIV - Truth.webm
+GW1 - Arborstone.webm
+GW1 - Arrival In Silverwood.webm
+GW1 - Ashford Abbey.webm
+GW1 - Borlis Pass.webm
+GW1 - Eye Of The Storm.webm
+GW1 - Garden of Seborhin.webm
+GW1 - Gwen's Theme.webm
+GW1 - Kurzick Theme.webm
+GW1 - Over The Shiverpeaks.webm
+GW1 - Resplendent Makuun.webm
+GW1 - Riverside Province.webm
+GW1 - Sands Of Kryta.webm
+GW1 - Temple Of Tolerance.webm
+GW1 - The Eternal Grove.webm
+GW2 - Auric Wilds.webm
+GW2 - Bandits' Expanse.webm
+GW2 - Call Of The Raven.webm
+GW2 - Dawn In Shaemoor.webm
+GW2 - Farren's Theme.webm
+GW2 - Gendarran Fields.webm
+GW2 - Journey Through Caledon.webm
+GW2 - Lornar's Pass.webm
+GW2 - Maguuma Overture.webm
+GW2 - Melandru's Calm.webm
+GW2 - Mepi's Ranch.webm
+GW2 - Ruins Of An Empire.webm
+GW2 - Southsun Cove.webm
+GW2 - Sparkfly Fen.webm
+GW2 - The Sea Of Sorrows.webm
+GW2 - The Shiverpeaks.webm
+GW2 - The Walls Of Ebonhawke.webm
+GW2 - Trahearne's Reverie.webm
+GW2 - View from the Canopy.webm
+Gladiator OST - Earth.webm
+GoT OST - Kill Them All.webm
+HK - Greenpath.webm
+HK - Kingdom's Edge.webm
+HK - Queen's Gardens.webm
+HKS - Moss Grotto.webm
+LRO - Red Stones And Golden Leaves.webm
+Last Epoch - Highlands.webm
+LoZ-BotW - Highlands.webm
+LoZ-BotW - Wetlands.webm
+LoZ-TP - Soundscapes - Lake Hylia.webm
+LoZ-TotK - Field (Day).webm
+LoZ-TotK - Field (Night).webm
+LoZ-TotK - Korok Forest (Day).webm
+LoZ-TotK - Mipha Court.webm
+Loz-BotW - Field (Day).webm
+Monster Hunter Wilds - Heading Back Theme.webm
+NWN1 - City_Night_Theme.webm
+NWN1 - Forest_Day_Theme_1.webm
+NWN1 - Forest_Night_Theme.webm
+NWN1 - Rural Day Theme 1.webm
+Oblivion - Alls Well.webm
+Oblivion - Auriel's Ascension.webm
+Oblivion - Dusk at the Market.webm
+Oblivion - Harvest Dawn.webm
+Oblivion - King and Country.webm
+Oblivion - Minstrel's Lament.webm
+Oblivion - Sunrise of Flutes.webm
+Oblivion - Through the Valleys.webm
+Oblivion - Watchman's Ease.webm
+Oblivion - Wings of Kynareth.webm
+Outlander OST - Brianna and Roger Theme.webm
+Outlander OST - Young Ian Returns.webm
+PFK - Exploring The Stolen Lands.webm
+Pillars - Burial Isle.ogg
+Pillars - Defiance Bay.ogg
+Pillars - Drywood.ogg
+Pillars - Sun and Shadow.ogg
+Pillars - Twin Elms.ogg
+Pillars - Wilderness Music Elmshore.webm
+Pillars 2 - Setting Sail.webm
+Pillars 2 - Twin Elms Redux.webm
+PoE1 - Ascent.webm
+PoE1 - Coast.webm
+PoE1 - Fields.webm
+PoE1 - Riverways.webm
+PoE2 - Arastas.webm
+PoE2 - Hunting Grounds.webm
+PoE2 - The Ardura Caravan.webm
+PoE2 - Ziggurat Encampment.webm
+Skryim - Exploration Music Dusk 01.webm
+Skryim - Exploration Music Dusk 02.webm
+Skryim - Exploration Music Dusk 03.webm
+Skryim - Exploration Music Morning 01.webm
+Skryim - Exploration Music Morning 02.webm
+Skryim - Exploration Music Night 01.webm
+Skryim - Exploration Music Night 02.webm
+Skryim - Exploration Music Night 03.webm
+Skryim - Exploration Music Night 04.webm
+Skryim - Exploration Music Night 05.webm
+Skryim - Exploration Music Night 06.webm
+Skyrim - A Chance Meeting.webm
+Skyrim - Ancient Stones.webm
+Skyrim - Distant Horizons.webm
+Skyrim - Exploration Music Day 01.webm
+Skyrim - Exploration Music Day 02.webm
+Skyrim - Exploration Music Day 03.webm
+Skyrim - Exploration Music Day 04.webm
+Skyrim - Exploration Music Day 05.webm
+Skyrim - Exploration Music Day 06.webm
+Skyrim - Exploration Music Day 07.webm
+Skyrim - Exploration Music Day 08.webm
+Skyrim - Exploration Music Day 09.webm
+Skyrim - From Past to Present.webm
+Skyrim - Solitude.webm
+Skyrim - The Gathering Storm.webm
+Spells and Secrets - Blossom.webm
+Super Mario Galaxy 2 - World 1 and 2.webm
+The Last Samurai OST - A_Hard_Teacher.webm
+Tyranny - Passage of Culling.webm
+Tyranny - Sentinal Stand.webm
+Tyranny - The Tiers.webm
+Tyranny - Twin Rivers.webm
+Tyranny - Vendrien's Well.webm
+Vikings OST - Reach Land.webm
+Witcher 3 - A Magic Cave.webm
+Witcher 3 - Novigrad Dreaming.webm
+Witcher 3 - Oxenfurt.webm
+Witcher 3 - The Banks of the Sansretour.webm
+Witcher 3 - The Tree When We Sat Once.webm
+Witcher 3 - The Vagabond.webm
+Witcher 3 - Wind in the Caroberta Woods.webm
+WoW - DB_Tusk_InduleDay01.webm
+WoW - DB_Tusk_Indule_Day01.webm
+WoW - DayForest02.webm
+WoW - DayJungle02.webm
+WoW - DayPlains02.webm
+WoW - RA_TaurenRestArea1A.webm
+WoW - RA_TaurenRestArea1B.webm
+WoW - RA_TaurenRestArea2A.webm
+WoW - RA_TaurenRestArea2B.webm
+WoW - RA_TaurenRestArea3A.webm
+WoW - RA_TaurenRestArea3B.webm
+WoW - Thunderbluff Walking 01.webm
+WoW - Thunderbluff Walking 02.webm
+Wolcen Lords of Mayhem - Forests 05.webm
+poetics@tengu:/opt/FoundryVTT/Data13/Data/modules/poetics-music/Fantasy/Wilderness General$ ls | wc -l
+179
+poetics@tengu:/opt/FoundryVTT/Data13/Data/modules/poetics-music/Fantasy/Wilderness General$ cd ../Town General/
+poetics@tengu:/opt/FoundryVTT/Data13/Data/modules/poetics-music/Fantasy/Town General$ ls | wc -l
+153
+poetics@tengu:/opt/FoundryVTT/Data13/Data/modules/poetics-music/Fantasy/Town General$ ls
+AC-O - Conversations.webm
+AC-O - Markols.webm
+AC-O - The Hills Of Attika.webm
+AC-R - Welcome To Kostantiniyye.webm
+ACB - City of Rome.webm
+ACO - Ariadnes's Fate.webm
+AoC Track 03.webm
+AoC Track 12.webm
+BDO - Balenos Town Farm 1B.webm
+BDO - Balenos Town Farm 1C.webm
+BDO - Balenos Town Village (Velia).webm
+BDO - Calpheon University.webm
+BDO - Florin Village.webm
+BDO - Keplan City.webm
+BDO - Mediah City 2 (Altinova).webm
+BDO - Mediah Village 2.webm
+BDO - Serendia Village (Glish).webm
+BG1 - Streets Of The City.webm
+BG1 - The Friendly Arms Inn.webm
+BG3 - I Want To Live.webm
+BG3 - Last Light.webm
+BT - Mercenary Blues.webm
+Chronicles of Narnia OST - Lucy Meets Mr. Tumnus.webm
+DBMC - Grizmain's Botanical Shop.webm
+DBMC - Moonlight Tavern.webm
+DBMC - The Wandering Nomad.webm
+DD2 - Town on the Edge.webm
+DOS2 - Quirky Bones (Murky Version).webm
+DOS2 - Welcome to Fort Joy.webm
+Daggerfall - Sunny.webm
+Daggerfall - Theme 002.webm
+Diablo IV - Manestad Village.webm
+Dragon Age II - Hawke Family Theme.webm
+Dragon Age Origins - King Edrin.webm
+ESO - Auridon Sunrise.webm
+ESO - Dawn at Castle Navire.webm
+ESO - Hope Just out of Reach.webm
+ESO - Northpoint Nocturne.webm
+ESO - Port of Thieves.webm
+ESO - Radiance and Glory.webm
+ESO - Through Sunflower Fields.webm
+FFXIII - This is Your Home.webm
+FFXIII - Vanille's Theme.webm
+FFXIV - Shelter.webm
+GW1 - Ashford Abbey.webm
+GW1 - Festival of Lyss.webm
+GW1 - Garden of Seborhin.webm
+GW1 - Memories of Ascalon.webm
+GW1 - Resplendent Makuun.webm
+GW1 - Riverside Province.webm
+GW1 - Sands Of Kryta.webm
+GW2 - A New Journey.webm
+GW2 - An Exalted Lullaby.webm
+GW2 - Bear's Spirit.webm
+GW2 - City Tensions.webm
+GW2 - Far From Home.webm
+GW2 - Farahr.webm
+GW2 - Golden Heights.webm
+GW2 - Journey Through Caledon.webm
+GW2 - Kormir's Whispers.webm
+GW2 - Mepi's Ranch.webm
+GW2 - Ruins Of An Empire.webm
+GW2 - The Last Great City Of Men.webm
+GW2 - The Stars Shine On Kryta.webm
+GoT OST - The Old Gods and the New.webm
+GoT OST - You Win or You Die.webm
+HK - Dream.webm
+HK - Fungal Wastes.webm
+HK - White Palace.webm
+HKS - Bellhart.webm
+HKS - Greymoor.webm
+HKS - Shellwood.webm
+HZD - All That the Light Reaches.webm
+HZD - City On the Mesa.webm
+High-Rise OST  - Silent Corridors.webm
+IWD - Temple of Tempus.webm
+Kingdom of Heaven OST - A New World.webm
+LoZ-TotK - Lurelin Village (Day).webm
+Monster Hunter Wilds - Day Fallow Kunafa Village Theme.webm
+Monster Hunter Wilds - Day Plenty Kunafa Village Theme.webm
+Monster Hunter Wilds - Daytime-Evening Main Hub Theme.webm
+NWN - Market Theme.webm
+NWN1 - Castle_Theme.webm
+NWN1 - City_Night_Theme.webm
+NWN1 - Docks_Day_Theme.webm
+NWN1 - Docks_Night_Theme.webm
+NWN1 - Rural_Day_Theme_1.webm
+NWN1 - Rural_Day_Theme_2.webm
+NWN1 - Rural_Night_Theme.webm
+NWN2 - Academy.webm
+NWN2 - Viliage Theme.webm
+Oblivion - Alls Well.webm
+Oblivion - Dusk at the Market.webm
+Oblivion - Minstrel's Lament.webm
+Oblivion - Wings of Kynareth.webm
+PFK - Dawn At The Narlmarches.webm
+PFK - Rule Of Balance.webm
+PFK - Rule Of Good.webm
+Pillars - Caed Nua.ogg
+Pillars - Defiance Bay.ogg
+Pillars - Dryford.ogg
+Pillars - Gilded Vale.ogg
+Pillars - Twin Elms.ogg
+PoE1 - Bridge Encampment.webm
+PoE1 - City of Sarn.webm
+PoE1 - Forest Encampment.webm
+PoE1 - Lioneye’s Watch.webm
+PoE1 - Sarn Encampment.webm
+PoE2 - Clearfell Encampment.webm
+PoE2 - Ogham Manor.webm
+Skyrim - Ancient Stones.webm
+Skyrim - Around the Fire.webm
+Skyrim - Castle Imperial 01.webm
+Skyrim - Explore Day 08.webm
+Skyrim - From Past to Present.webm
+Skyrim - Imperial Throne.webm
+Skyrim - Tavern 01.webm
+Skyrim - Tavern 05.webm
+Skyrim - The City Gates.webm
+Skyrim - The Gathering Storm.webm
+Skyrim - The Streets of Whiterun.webm
+Skyrim - Town Day 01.webm
+Skyrim - Town Day 02.webm
+Skyrim - Town Day 03.webm
+Skyrim - Town Day 04.webm
+Spells and Secrets - It Is In The Light.webm
+Tyranny - Sentinal Stand.webm
+WildStar - A House! In The Sky! (Dominion Housing Theme).webm
+WildStar - A Sanctuary Here (Torine Sisterhood Alternate).webm
+Witcher 3 - Ard Skellig Village.webm
+Witcher 3 - Cloak And Dagger.webm
+Witcher 3 - Outskirts of Novigrad.webm
+Witcher 3 - Oxenfurt.webm
+Witcher 3 - The Slums of Novigrad.webm
+Witcher 3 - The Vagabond.webm
+Wizardry II - Adventurer's Inn.webm
+WoW - AT_Tourney01NightWalk.webm
+WoW - DB_GeneralWalk_Day01.webm
+WoW - Darnassus Walking 2.webm
+WoW - Ironforge Walking 04.webm
+WoW - RA_DwarfTavern1A.webm
+WoW - RA_DwarfTavern1B.webm
+WoW - RA_DwarfTavern2A.webm
+WoW - RA_HumanTavern1A.webm
+WoW - RA_HumanTavern1B.webm
+WoW - RA_OrcRestArea1A.webm
+WoW - RA_OrcRestArea2A.webm
+WoW - RA_OrcRestArea2B.webm
+WoW - RA_OrcRestArea3A.webm
+WoW - RA_Tavern1_RevisitedA.webm
+WoW - RA_Tavern1_RevisitedB.webm
+WoW - RA_UndeadTavern2.webm
+WoW - RA_UndeadTavern3A.webm
