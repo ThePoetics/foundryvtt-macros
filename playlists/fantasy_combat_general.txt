@@ -147,7 +147,7 @@ HKS - Crust King Khann.webm
 HKS - Incisive Battle.webm
 IWD - Icewind Dale Theme.webm
 LoZ-TotK - Field Battle (Cave).webm
-LotZ-TotK - Field Battle.webm
+LoZ-TotK - Field Battle.webm
 MG - Bones Of The Forsaken.webm
 MG - Dragon King Of The North.webm
 MG - Guardians.webm
@@ -157,6 +157,10 @@ MG - Trials Of Sand.webm
 MG - Vanguard's Might.webm
 MG - Victory On The Horizon.webm
 Monster Hunter Wilds - Rey Dau Theme.webm
+Morrowind - Ambush!.webm
+Morrowind - Bright Spears, Dark Blood.webm
+Morrowind - Hunter's Pursuit.webm
+Morrowind - Stormclouds on the Battlefield
 NWN1 - Battle_City_1.webm
 NWN1 - Battle_City_2.webm
 NWN1 - Battle_City_3.webm
@@ -174,7 +178,7 @@ Pillars - Combat D.ogg
 Pillars - Combat E.ogg
 Pillars - Combat F.ogg
 Pillars 2 - Its Crash Could not be Denied.webm
-Pillars 2- If Their Bones Sleep.webm
+Pillars 2 - If Their Bones Sleep.webm
 PoE1 - Arakaali.webm
 PoE1 - The Brine King.webm
 PoE2 - Captain Hartlin.webm
