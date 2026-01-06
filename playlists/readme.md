@@ -12,6 +12,11 @@ Future plans include adding mood-specific tracks, as well as playlists specific 
 Modern settings such as games set in *Shadowrun* or *Cyberpunk*, and several specific 
 to my love of *Legend of the Five Rings*.
 
+### Current Totals
+- Fantasy Wilderness General:	11 h+
+- Fantasy Dungeon General: 	9 h 45+
+- Fantasy Town General:		8 h 45+
+- Fantasy Combat General:		09 h+
 
 ## Source Shortcodes
 Generally used for video games with long titles, the playlists herein are often marked 
@@ -23,8 +28,6 @@ included in the title are not listed here.
 - Age of Conan -- AoC
 - Age of Empires -- AoE
 - Arc Rise Fantasia -- ARF
-- D&D Background Music Collections -- DBMC
-- Michael Ghelfi -- MG
 - Assassin's Creed -- AC
 - - Origins -- ACO
 - - Brotherhood -- ACB
@@ -35,6 +38,7 @@ included in the title are not listed here.
 - Beyond Good and Evil -- BGE
 - Black Desert -- BDO
 - Borderlands 1/2/3 -- BL1/2/3
+- D&D Background Music Collections -- DBMC
 - Divinity: Original Sin 2 -- DOS2
 - Dragon's Dogma 2 -- DD2
 - Final Fantasy XIV -- FFXIV
@@ -50,6 +54,7 @@ included in the title are not listed here.
 - -	Tears of the Kingdom -- TotK
 - -	Breath of the Wild -- BotW
 - Lord of the Rings Online -- LRO
+- Michael Ghelfi (https://www.michaelghelfistudios.com/) -- MG
 - Neverwinter Nights 1/2 -- NWN1/2
 - Path of Exile 1/2 -- PoE1/2
 - Pathfinder: Kingmaker -- PFK
