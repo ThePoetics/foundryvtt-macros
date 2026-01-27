@@ -10,7 +10,6 @@ use strict;
 # Initial party size
 my $player_count = 5;                   # Party size, default 5
 
-
 # Encounter limit formula from DH core rules
 my $encounter_size = (3 * $player_count) + 2;
 
@@ -23,6 +22,7 @@ my %enemies = (
         "Horde" => { 'points' => 2, 'count' => 0, 'w_count' => 0 },
         "Ranged" => { 'points' => 2, 'count' => 0, 'w_count' => 0 },
         "Skulk" => { 'points' => 2, 'count' => 0, 'w_count' => 0 },
+        "Standard" => { 'points' => 2, 'count' => 0, 'w_count' => 0 },
         "Leader" => { 'points' => 3, 'count' => 0, 'w_count' => 0 },
         "Bruiser" => { 'points' => 4, 'count' => 0, 'w_count' => 0 },
         "Solo" => { 'points' => 5, 'count' => 0, 'w_count' => 0 }
@@ -41,7 +41,6 @@ my %enemies = (
 # - Subtract 1 point to make a fight easier [manual]
 # - Subtract 2 points and give all enemies +1d4/+2 to damage [manual]
 
-
 # Run the encounter calculator
 &encounter($encounter_size);
 
@@ -58,16 +57,15 @@ my $point;
 foreach my $name (keys %enemies) {
         if ( $enemies{$name}{'count'} > 0 ) {
                 $count = $enemies{$name}{'count'};
-                $point = $enemies{$name}{'points'};
+                $point = $enemies{$name}{'points'} * $count ;
                 printf("%-23s%s\n","- $count" . "x $name", "[$point pts]");
         }
         if ( $enemies{$name}{'w_count'} > 0 ) {
                 $count = $enemies{$name}{'w_count'};
-                $point = $enemies{$name}{'points'} + 1;
+                $point = ($enemies{$name}{'points'} + 1) * $count ;
                 printf("%-23s%s\n","- $count" . "x $name (Wither)", "[$point pts]");
         }
 }
-
 
 # The bulk of the labor
 sub encounter {
@@ -76,12 +74,16 @@ sub encounter {
         my $solos = 0;                  # Required for solo-check rule
         my $cost = 0;
         my $withered = 0;
+        my $monster;
         my @monsters = keys %enemies;
 
         while ($e_limit > 0) {
 
                 # First step, draw a monster and check for wither (25%)
-                my $monster = $monsters[rand(@monsters)];
+                # "Standard" monsters have a 30%+ chance of being drawn
+                if (rand(1) < 0.30) { $monster = 'Standard'; }
+                else { $monster = $monsters[rand(@monsters)]; }
+
                 $cost = $enemies{$monster}{'points'};
                 if (rand(1) < 0.25) {
                         $withered = 1;
