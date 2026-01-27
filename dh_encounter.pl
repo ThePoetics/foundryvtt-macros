@@ -1,135 +1,122 @@
 #!/usr/bin/perl -w
 #
 # A script to help generate encounters for an upcoming Heart of the Witherwild
-# campaign with the Daggerheart ruleset. This is going to be quick and dirty
-# at first, with many potential areas of improvement.
+# campaign within the Daggerheart RPG ruleset.
 #
 # Created 2026-01 by Poetics
 
 use strict;
 
-my $players = 5;
-# Improvement: overwrite via command arg?
+# Initial party size
+my $player_count = 5;                   # Party size, default 5
 
-# Basic encounter formula from rulebook
-my $encounter_size = (3 * $players) + 2;
 
-# Additional Rules:
-#       Subtract 2 points if 2+ Solos [automated]
-#       Add 1 point if no Bruisers, Hordes, Leaders, or Solos [automated, ish]
-#       Suggest adding 2 points for harder fights
-#       (Also can do -2 points by adding +1d4/+2 to all enemy damage)
-#       Suggest subtracting 1 point for easier fights
-#       Withered enemies are +1 point each [custom]
+# Encounter limit formula from DH core rules
+my $encounter_size = (3 * $player_count) + 2;
 
-# Enemies by point value
+# Adversary Tracker
+# [Name]: [Points, Count, Wither Count]
 my %enemies = (
-        "minions" => "1",       # Group equal to the party size
-        "social" => "1",
-        "support" => "1",
-        "horde" => "2",
-        "ranged" => "2",
-        "skulk" => "2",
-        "standard" => "2",
-        "leader" => "3",
-        "bruiser" => "4",
-        "solo" => "5"
+        "Minions" => { 'points' => 1, 'count' => 0, 'w_count' => 0 },
+        "Social" => { 'points' => 1, 'count' => 0, 'w_count' => 0 },
+        "Support" => { 'points' => 1, 'count' => 0, 'w_count' => 0 },
+        "Horde" => { 'points' => 2, 'count' => 0, 'w_count' => 0 },
+        "Ranged" => { 'points' => 2, 'count' => 0, 'w_count' => 0 },
+        "Skulk" => { 'points' => 2, 'count' => 0, 'w_count' => 0 },
+        "Leader" => { 'points' => 3, 'count' => 0, 'w_count' => 0 },
+        "Bruiser" => { 'points' => 4, 'count' => 0, 'w_count' => 0 },
+        "Solo" => { 'points' => 5, 'count' => 0, 'w_count' => 0 }
 );
 
-# Hold the count of each in a hash in order to properly track how many of
-# which types we've drawn, and to apply adjustments (for multiple solos or
-# none of the second listed groups).
-
-my %fight_makeup = (
-        "minions" => "0", "minions_w" => "0",
-        "social" => "0", "social_w" => "0",
-        "support" => "0", "support_w" => "0",
-        "horde" => "0", "horde_w" => "0",
-        "ranged" => "0", "ranged_w" => "0",
-        "skulk" => "0", "skulk_w" => "0",
-        "standard" => "0", "standard_w" => "0",
-        "leader" => "0", "leader_w" => "0",
-        "bruiser" => "0", "bruiser_w" => "0",
-        "solo" => "0", "solo_w" => "0"
-);
-
-# Now the trick. Start an infinite loop and a base count equal to
-# $encounter_size. On each loop, see if there's enough $e_s to subtract, and
-# if so, add that monster to the loop and decrement. If not, re-draw.
+# Additional Rules
+# These are rules suggested by the Daggerheart team for altering an
+# encounter's point value/difficulty. Some are able to be automated within
+# this script, some are up to the GM to implement themselves (generally
+# by adding or subtracting a 1-point enemy like Minions, Social, or Support)
 #
-# Additional factors: consider a 25% chance to have a Withered enemy
-# Future Improvement: make "Standard" more likely?
-
-# Run the subroutine
-my $base = &encounter($encounter_size);
-
-# Re-run encounter with 1 point to account for additional rule #2
-my $rule2 = $fight_makeup{'bruiser'} + $fight_makeup{'bruiser_w'} + $fight_makeup{'horde'} + $fight_makeup{'horde_w'} + $fight_makeup{'leader'} + $fight_makeup{'leader_w'} + $fight_makeup{'solo'} + $fight_makeup{'solo_w'};
-
-if ($rule2 == 0) { &encounter(1); }
+# - Subtract 2 points if 2+ Solos [automated]
+# - Add 1 point if no Bruisers, Hordes, Leaders, or Solos [automated]
+# - "Withered" enemies are +1 points each [automated]
+# - Add 2 points to make a fight harder [manual]
+# - Subtract 1 point to make a fight easier [manual]
+# - Subtract 2 points and give all enemies +1d4/+2 to damage [manual]
 
 
-# Display results
-foreach (keys %fight_makeup) {
-        print "$_ x" . $fight_makeup{$_} . "\n" if $fight_makeup{$_} > 0;
+# Run the encounter calculator
+&encounter($encounter_size);
+
+# If Additional Rule 2 is triggered, re-run the calculator with a limit of 1
+&encounter(1) unless ( $enemies{'Bruiser'}{'count'} + $enemies{'Bruiser'}{'w_count'} + $enemies{'Horde'}{'count'} + $enemies{'Horde'}{'w_count'} + $enemies{'Leader'}{'count'} + $enemies{'Leader'}{'w_count'} + $enemies{'Solo'}{'count'} + $enemies{'Solo'}{'w_count'} > 0 );
+
+# Print the output
+print "Party size: $player_count ($encounter_size points)\n";
+
+# Generic variables to make the printf statements cleaner
+my $count;
+my $point;
+
+foreach my $name (keys %enemies) {
+        if ( $enemies{$name}{'count'} > 0 ) {
+                $count = $enemies{$name}{'count'};
+                $point = $enemies{$name}{'points'};
+                printf("%-23s%s\n","- $count" . "x $name", "[$point pts]");
+        }
+        if ( $enemies{$name}{'w_count'} > 0 ) {
+                $count = $enemies{$name}{'w_count'};
+                $point = $enemies{$name}{'points'} + 1;
+                printf("%-23s%s\n","- $count" . "x $name (Wither)", "[$point pts]");
+        }
 }
 
-# Debugging text
-#print "--Base Points: $base\n";
 
+# The bulk of the labor
 sub encounter {
+
         my $e_limit = shift(@_);
-        my $solos = 0;
+        my $solos = 0;                  # Required for solo-check rule
+        my $cost = 0;
         my $withered = 0;
-        my $basepoints = 0;
+        my @monsters = keys %enemies;
 
         while ($e_limit > 0) {
 
-                # Put the monster types into an array and pull one randomly
-                my @monsters = keys %enemies;
+                # First step, draw a monster and check for wither (25%)
                 my $monster = $monsters[rand(@monsters)];
-
-                # Check to see if there's enough size left for this monster
-                next unless ($e_limit - $enemies{$monster} >= 0);
-
-                # The limit gets lowered if there's more than one Solo
-                # So before adding an additional one, we need to check to
-                # see if there's room, including the lowered limit
-                if ($monster eq 'solo') {
-                        if ($solos > 1) {
-                                next unless ($e_limit - $enemies{$monster} >= 2);
-                        }
-                        $solos++;
-                        # We do not deduct more than once
-                        if ($solos == 2) { $e_limit -= 2; }
-                }
-
-                # Now check for wither and whether there's capacity
-                if ((rand(1) < 0.25) && ($e_limit - $enemies{$monster} >= 1)) {
+                $cost = $enemies{$monster}{'points'};
+                if (rand(1) < 0.25) {
                         $withered = 1;
-                        $e_limit -= 1;
-                }
+                        $cost++;
+                };
 
-                # If no withered trigger, push the monster
-                if (!$withered) {
-                        $fight_makeup{$monster}++;
-                }
-                # Otherwise, add the _w, push the monster
-                else {
-                        $fight_makeup{$monster . "_w"}++;
-                }
+                # Next, check for capacity left in the encounter
+                next unless ($e_limit - $cost >= 0);
 
-                # Clear withered and decrement size
-                $withered = "";
-                $e_limit -= $enemies{$monster};
-                $basepoints += $enemies{$monster};
+                # Special check to deal with the Solos rule, above
+                # We only add the bonus cost when the # of solos equals 2
+                if ($monster eq 'Solo') {
+                        $solos++;
+                        if ($solos == 2) { $cost += 2; }
+                        next unless ($e_limit - $cost >= 0);
+                };
+
+                # If those checks pass, we add the monster tally
+                # and subtract their cost from the encounter limit
+                if ($withered) { $enemies{$monster}{'w_count'}++; }
+                else { $enemies{$monster}{'count'}++; };
+                $e_limit -= $cost;
+
+                # Clean up variables used this loop (explicitly /not/ $solos)
+                $withered = 0;
+                $cost = 0;
+
         };
 
-        return $basepoints;
 };
 
 
-exit;
-
-
 __END__
+
+## Changelog
+
+2026-01-27 : Rewrote from scratch with better logic and results display
+2026-01-26 : Initial release. Very hacky and with roughshod logic
